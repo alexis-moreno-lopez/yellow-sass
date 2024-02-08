@@ -56,15 +56,15 @@ body {
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 7.1%;
-        border: 1px solid orange;
+        border: 1px solid rgba(255, 184, 28, 255);
         width: 20px;
         height: 20px;
-        background-color: orange;
+        background-color: rgba(255, 184, 28, 255);
       }
     }
 
     p {
-        text-align: center;
+      text-align: center;
       color: white;
       justify-content: center;
       padding: 0 15%;
@@ -82,8 +82,8 @@ body {
         width: 300px;
         //   margin: 10px;
         color: white;
-        border: 5px solid orange;
-        background-color: orange;
+        border: 5px solid rgba(255, 184, 28, 255);
+        background-color: rgba(255, 184, 28, 255);
         text-decoration: none;
         display: flex;
         justify-content: center;
@@ -93,115 +93,231 @@ body {
           background-color: rgba($color: black, $alpha: 0.4);
           border: 5px solid white;
         }
-
       }
-
     }
-
   }
-
 }
 
 #about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+
+  h2 {
+    color: rgba(84, 85, 87, 255);
+    font-size: 40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 30vh;
-
-    h2 {
-        font-size: 40px;
-        margin-bottom: 40px;
-        display: flex;
-        justify-content: center;
-    }
+  }
 }
 
 #projects {
-    background-color: rgb(247, 244, 244);
-    h2 {
-        padding-top: 50px;
-        font-size: 40px;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-    p {
-        font-size: 1rem;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40px;
-    }
-    div {
-        display: flex;
-        justify-content: center;
-
-    }
-    img{
+  background-color: rgb(247, 244, 244);
+  h2 {
+    color: rgba(84, 85, 87, 255);
+    padding-top: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+  }
+  img {
     width: 100rem;
-
-    }
-
+  }
 }
 #violet {
-    background-image: url(/images/bkg-testimonial.jpg);
+  background-image: url(/images/bkg-testimonial.jpg);
 
+  justify-content: center;
+  background-size: cover;
+  height: 55vh;
+  align-items: center;
+
+  h3 {
+    color: white;
+    display: flex;
     justify-content: center;
-    background-size: cover;
-    height: 70vh;
+    font-size: 2.4rem;
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+  > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    img {
+      border-radius: 100px;
+    }
+  }
+  article {
+    display: flex;
     align-items: center;
-    h3 {
-        color: white;
-        display: flex;
-        justify-content: center;
-        font-size: 2.4rem;
-        padding-top: 40px;
-        margin-bottom: 40px;
-    }
-   > div {
-        
-        display: flex;
-        justify-content: center;
-
-    }
-    article {
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    p {
-        font-size: 1.5rem;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #violet > div:nth-child(2) {
-        border: 1px solid black;
-        height: 100px;
-        width: 100px;
-    }
-
-}
-#services {
-    height: 30vh;
+    color: white;
     text-align: center;
-    h2 {
-        margin-top: 60px;
-        font-size: 40px
-    }
-    p {
-        text-align: center;
-        margin-bottom: 60px;
-    }
-
-   > div {
-        display: flex;
-        padding: 0 200px;
-
-   article {
-
+    justify-content: center;
+    border: 1px solid rgb(112, 76, 132);
+    background-color: rgb(112, 76, 132);
+    padding: 40px;
+    width: 50%;
+  }
+  p {
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div:nth-child(4) {
+    border: 1px solid white;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+  }
+  &:nth-child(5) {
+    border: 1px solid white;
+    border-radius: 100px;
+  }
+  &:nth-child(6) {
+    border: 1px solid white;
+    border-radius: 100px;
+  }
+  &:nth-child(7) {
+    border: 1px solid white;
+    border-radius: 100px;
+  }
 }
 
- }
+#services {
+  height: 30vh;
+  text-align: center;
+  margin-bottom: 40px;
+  h2 {
+    color: rgba(84, 85, 87, 255);
+    margin-top: 60px;
+    font-size: 40px;
+  }
+  p {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  > div {
+    display: flex;
+    padding: 0 200px;
+
+    > div {
+      &:nth-child(1) {
+        color: rgba(241, 139, 109, 255);
+      }
+      &:nth-child(2) {
+        color: rgb(251, 189, 42);
+      }
+      &:nth-child(3) {
+        color: rgba(107, 77, 138, 255);
+      }
+      article {
+        padding: 0 50px;
+      }
+
+      h4 {
+        font-size: 25px;
+      }
+    }
+  }
+}
+#latest {
+  background-color: rgb(36, 44, 52);
+  height: 90vh;
+  text-align: center;
+
+  h3 {
+    padding-top: 100px;
+    font-size: 2.4rem;
+    color: white;
+  }
+  color: white;
+  p {
+    padding-bottom: 80px;
+  }
+  > div {
+    display: flex;
+    justify-content: center;
+
+    button {
+      color: white;
+      font-size: 1rem;
+      margin-bottom: 60px;
+      border: 1px solid rgb(250, 187, 33);
+      background-color: rgb(250, 187, 33);
+      height: 50px;
+      width: 250px;
+    }
+    > div {
+      color: black;
+      background-color: white;
+      border: 2px solid black;
+      height: 650px;
+      width: 425px;
+      margin: 0 20px;
+      text-align: center;
+
+      &:nth-child(2) {
+        border: 2px solid black;
+        height: 700px;
+        width: 425px;
+        margin: 0 20px;
+        text-align: center;
+
+        p {
+          text-align: center;
+          padding: 10px;
+        }
+
+        a {
+          text-decoration: none;
+          color: rgb(250, 187, 33);
+        &:nth-child(3) {
+          text-decoration: none;
+          color: rgb(250, 187, 33);
+        }
+
+        }
+
+      }
+    }
+  }
+}
+#jaune {
+  background-image: url(/images/bkg-counter.jpg);
+  height: 20vh;
+  display: flex;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+padding: 0 900px;
+padding-bottom: 200px;
+
+
+> div {
+color: white;
+font-size: 4rem;
+border-right: 1px solid white;
+height: 50%;
+text-align: center;
+padding-right: 50px;
+}
+
+
 }
