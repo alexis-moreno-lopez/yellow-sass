@@ -1,34 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,200&display=swap");
 body {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+}
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 #header {
   position: fixed;
   display: flex;
-  width: 100%; }
-  #header img {
-    height: 80px;
-    margin-top: 5%;
-    margin-left: 530px; }
-  #header nav {
-    margin-top: 80px;
-    width: 60%;
-    margin-left: 15%;
-    margin-right: 15%; }
-    #header nav ul {
-      display: flex;
-      list-style: none;
-      gap: 10px 20px;
-      font-size: 20px;
-      color: white; }
-      #header nav ul li {
-        margin-right: 25px; }
+  width: 100%;
+}
+#header img {
+  height: 80px;
+  margin-top: 5%;
+  margin-left: 530px;
+}
+#header nav {
+  margin-top: 80px;
+  width: 60%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px 20px;
+  font-size: 20px;
+  color: white;
+}
+#header nav ul li {
+  margin-right: 25px;
+}
 
 #home {
   background-image: url(/images/bkg-hero-header.jpg);
@@ -36,197 +43,240 @@ body {
   justify-content: center;
   background-size: cover;
   height: 100vh;
-  align-items: center; }
-  #home div h1 {
-    display: flex;
-    font-size: 100px;
-    color: white; }
-    #home div h1 div {
-      font-family: "Poppins", sans-serif;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-top: 7.1%;
-      border: 1px solid #ffb81c;
-      width: 20px;
-      height: 20px;
-      background-color: #ffb81c; }
-  #home div p {
-    text-align: center;
-    color: white;
-    justify-content: center;
-    padding: 0 15%; }
-  #home div div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; }
-    #home div div a {
-      margin-top: 30px;
-      height: 70px;
-      width: 300px;
-      color: white;
-      border: 5px solid #ffb81c;
-      background-color: #ffb81c;
-      text-decoration: none;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      #home div div a:first-child {
-        background-color: rgba(0, 0, 0, 0.4);
-        border: 5px solid white; }
+  align-items: center;
+}
+#home div h1 {
+  display: flex;
+  font-size: 100px;
+  color: white;
+}
+#home div h1 div {
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 7.1%;
+  border: 1px solid #ffb81c;
+  width: 20px;
+  height: 20px;
+  background-color: #ffb81c;
+}
+#home div p {
+  text-align: center;
+  color: white;
+  justify-content: center;
+  padding: 0 15%;
+}
+#home div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#home div div a {
+  margin-top: 30px;
+  height: 70px;
+  width: 300px;
+  color: white;
+  border: 5px solid #ffb81c;
+  background-color: #ffb81c;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home div div a:first-child {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 5px solid white;
+}
 
 #about {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh; }
-  #about h2 {
-    color: #545557;
-    font-size: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center; }
+  height: 30vh;
+}
+#about h2 {
+  color: #545557;
+  font-size: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
 
 #projects {
-  background-color: #f7f4f4; }
-  #projects h2 {
-    color: #545557;
-    padding-top: 50px;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px; }
-  #projects p {
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px; }
-  #projects div {
-    display: flex;
-    justify-content: center; }
-  #projects img {
-    width: 100rem; }
+  background-color: #f7f4f4;
+}
+#projects h2 {
+  color: #545557;
+  padding-top: 50px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#projects p {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#projects div {
+  display: flex;
+  justify-content: center;
+}
+#projects img {
+  width: 100rem;
+}
 
 #violet {
   background-image: url(/images/bkg-testimonial.jpg);
   justify-content: center;
   background-size: cover;
   height: 55vh;
-  align-items: center; }
-  #violet h3 {
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 2.4rem;
-    padding-top: 40px;
-    margin-bottom: 40px; }
-  #violet > div {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px; }
-    #violet > div img {
-      border-radius: 100px; }
-  #violet article {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    border: 1px solid #704c84;
-    background-color: #704c84;
-    padding: 40px;
-    width: 50%; }
-  #violet p {
-    font-size: 1.5rem;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  #violet div:nth-child(4) {
-    border: 1px solid white;
-    height: 10px;
-    width: 10px;
-    border-radius: 100px; }
-  #violet:nth-child(5) {
-    border: 1px solid white;
-    border-radius: 100px; }
-  #violet:nth-child(6) {
-    border: 1px solid white;
-    border-radius: 100px; }
-  #violet:nth-child(7) {
-    border: 1px solid white;
-    border-radius: 100px; }
+  align-items: center;
+}
+#violet h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+#violet > div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#violet > div img {
+  border-radius: 100px;
+}
+#violet article {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid #704c84;
+  background-color: #704c84;
+  padding: 40px;
+  width: 50%;
+}
+#violet p {
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#violet div:nth-child(4) {
+  border: 1px solid white;
+  height: 10px;
+  width: 10px;
+  border-radius: 100px;
+}
+#violet:nth-child(5) {
+  border: 1px solid white;
+  border-radius: 100px;
+}
+#violet:nth-child(6) {
+  border: 1px solid white;
+  border-radius: 100px;
+}
+#violet:nth-child(7) {
+  border: 1px solid white;
+  border-radius: 100px;
+}
 
 #services {
   height: 30vh;
   text-align: center;
-  margin-bottom: 40px; }
-  #services h2 {
-    color: #545557;
-    margin-top: 60px;
-    font-size: 40px; }
-  #services p {
-    text-align: center;
-    margin-bottom: 60px; }
-  #services > div {
-    display: flex;
-    padding: 0 200px; }
-    #services > div > div:nth-child(1) {
-      color: #f18b6d; }
-    #services > div > div:nth-child(2) {
-      color: #fbbd2a; }
-    #services > div > div:nth-child(3) {
-      color: #6b4d8a; }
-    #services > div > div article {
-      padding: 0 50px; }
-    #services > div > div h4 {
-      font-size: 25px; }
+  margin-bottom: 40px;
+}
+#services h2 {
+  color: #545557;
+  margin-top: 60px;
+  font-size: 40px;
+}
+#services p {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#services > div {
+  display: flex;
+  padding: 0 200px;
+}
+#services > div > div:nth-child(1) {
+  color: #f18b6d;
+}
+#services > div > div:nth-child(2) {
+  color: #fbbd2a;
+}
+#services > div > div:nth-child(3) {
+  color: #6b4d8a;
+}
+#services > div > div article {
+  padding: 0 50px;
+}
+#services > div > div h4 {
+  font-size: 25px;
+}
 
 #latest {
   background-color: #242c34;
   height: 90vh;
   text-align: center;
-  color: white; }
-  #latest h3 {
-    padding-top: 100px;
-    font-size: 2.4rem;
-    color: white; }
-  #latest p {
-    padding-bottom: 80px; }
-  #latest > div {
-    display: flex;
-    justify-content: center; }
-    #latest > div button {
-      color: white;
-      font-size: 1rem;
-      margin-bottom: 60px;
-      border: 1px solid #fabb21;
-      background-color: #fabb21;
-      height: 50px;
-      width: 250px; }
-    #latest > div > div {
-      color: black;
-      background-color: white;
-      border: 2px solid black;
-      height: 650px;
-      width: 425px;
-      margin: 0 20px;
-      text-align: center; }
-      #latest > div > div:nth-child(2) {
-        border: 2px solid black;
-        height: 700px;
-        width: 425px;
-        margin: 0 20px;
-        text-align: center; }
-        #latest > div > div:nth-child(2) p {
-          text-align: center;
-          padding: 10px; }
-        #latest > div > div:nth-child(2) a {
-          text-decoration: none;
-          color: #fabb21; }
-          #latest > div > div:nth-child(2) a:nth-child(3) {
-            text-decoration: none;
-            color: #fabb21; }
+  color: white;
+}
+#latest h3 {
+  padding-top: 100px;
+  font-size: 2.4rem;
+  color: white;
+}
+#latest p {
+  padding-bottom: 80px;
+}
+#latest > div {
+  display: flex;
+  justify-content: center;
+}
+#latest > div button {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 60px;
+  border: 1px solid #fabb21;
+  background-color: #fabb21;
+  height: 50px;
+  width: 250px;
+}
+#latest > div > div {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  height: 650px;
+  width: 425px;
+  margin: 0 20px;
+  text-align: center;
+}
+#latest > div > div:nth-child(2) {
+  border: 2px solid black;
+  height: 700px;
+  width: 425px;
+  margin: 0 20px;
+  text-align: center;
+}
+#latest > div > div:nth-child(2) p {
+  text-align: center;
+  padding: 10px;
+}
+#latest > div > div:nth-child(2) a {
+  text-decoration: none;
+  color: #fabb21;
+}
+#latest > div > div:nth-child(2) a:nth-child(3) {
+  text-decoration: none;
+  color: #fabb21;
+}
 
 #jaune {
   background-image: url(/images/bkg-counter.jpg);
@@ -236,11 +286,18 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 0 900px;
-  padding-bottom: 200px; }
-  #jaune > div {
-    color: white;
-    font-size: 4rem;
-    border-right: 1px solid white;
-    height: 50%;
-    text-align: center;
-    padding-right: 50px; }
+  padding-bottom: 200px;
+}
+#jaune > div {
+  display: flex;
+  color: white;
+  font-size: 4rem;
+  border-right: 1px solid white;
+  height: 50%;
+  text-align: center;
+  padding-right: 50px;
+}
+#jaune > div div {
+  border: 1px solid red;
+  height: 10px;
+}
